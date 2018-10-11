@@ -1,0 +1,8 @@
+<view class='container'>
+  <image class="avatar" src='/images/icon.png'></image>
+  <text class="name">
+    <text style='color:#405f80;'>welcome</text>,快乐食堂</text>
+  <view class="go-container" bindtap="goHome">
+    <text class='go'>开启美食之旅</text>
+  </view>
+</view>

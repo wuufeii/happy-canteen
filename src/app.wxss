@@ -1,0 +1,29 @@
+
+text {
+  font-family: MicroSoft Yahei;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 869410 */
+  src: url('//at.alicdn.com/t/font_869410_mi3mm78swcj.eot');
+  src: url('//at.alicdn.com/t/font_869410_mi3mm78swcj.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_869410_mi3mm78swcj.woff') format('woff'),
+  url('//at.alicdn.com/t/font_869410_mi3mm78swcj.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_869410_mi3mm78swcj.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jianyi:before { content: "\e6e7"; }
+
+.icon-tongji:before { content: "\e65a"; }
+
+.icon-yongcan:before { content: "\e619"; }
+
+.icon-shitang:before { content: "\e6a8"; }

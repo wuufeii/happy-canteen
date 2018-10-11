@@ -1,0 +1,20 @@
+<view class='tips'>
+  <icon type='info' size='20'></icon>
+  <text>仅预约不在食堂吃饭情况</text>
+</view>
+<view class="section">
+  <picker mode="date" value="{{date}}" start="2018-10-01" end="2019-09-01" bindchange="bindDateChange">
+    <view class="item">
+      <text class='item-label'>选择日期</text>
+      <text class='item-content item-time'>{{date}}</text>
+    </view>
+  </picker>
+  <view class="item">
+    <text class='item-label'>联系人</text>
+    <input type='text' placeholder='请输入姓名' class='item-content' placeholder-class="placeholderStyle"></input>
+  </view>
+  <view class="item">
+    <text class='item-label'>联系电话</text>
+    <input type='number' placeholder='请输入电话' class='item-content' placeholder-class="placeholderStyle"></input>
+  </view>
+</view>

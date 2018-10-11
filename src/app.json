@@ -1,0 +1,44 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/dining/dining",
+    "pages/statistics/statistics",
+    "pages/suggest/suggest"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b3d4db",
+    "navigationBarTitleText": "快乐食堂",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#1296db",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/images/tarbar-home-before.png",
+      "selectedIconPath": "/images/tarbar-home.png"
+    },
+    {
+      "pagePath": "pages/dining/dining",
+      "text": "预约",
+      "iconPath": "/images/tarbar-dining-before.png",
+      "selectedIconPath": "/images/tarbar-dining.png"
+    },
+    {
+      "pagePath": "pages/statistics/statistics",
+      "text": "统计",
+      "iconPath": "/images/tarbar-statistics-before.png",
+      "selectedIconPath": "/images/tarbar-statistics.png"
+    },
+    {
+      "pagePath": "pages/suggest/suggest",
+      "text": "建议",
+      "iconPath": "/images/tarbar-suggest-before.png",
+      "selectedIconPath": "/images/tarbar-suggest.png"
+    }]
+  }
+}

@@ -1,0 +1,30 @@
+<view>
+  <swiper indicator-dots='true'
+          autoplay='true'
+          indicator-color='#fff'
+          indicator-active-color="#00B9F4">
+      <swiper-item>
+        <image src="/images/swiper-01.jpg"></image>
+        <text>快乐食堂快乐你我他</text>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/swiper-02.jpg"></image>
+        <text>你不快乐来来快乐食堂</text>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/swiper-03.jpg"></image>
+        <text>快乐更要来快乐食堂</text>
+      </swiper-item>
+  </swiper>
+
+  <view class="food">
+    <text class="title">明日菜品</text>
+    <view class='item' wx:for="{{food}}" wx:for-item="item" wx:key="item.id">
+      <image src="{{item.imgUrl}}"></image>
+      <view class='content'>
+        <text class="item-title">{{item.title}}</text>
+        <text class="item-detail">{{item.detail}}</text>
+      </view>
+    </view> 
+  </view>
+</view>
