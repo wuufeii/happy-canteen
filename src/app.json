@@ -1,6 +1,7 @@
 {
   "cloud": true,
   "pages": [
+    "pages/judge/judge",
     "pages/welcome/welcome",
     "pages/index/index",
     "pages/dining/dining",

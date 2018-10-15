@@ -1,6 +1,6 @@
 {
-  "cloud": true,
-  "miniprogramRoot": "src/",
+	"cloud": true,
+	"miniprogramRoot": "src/",
 	"description": "项目配置文件",
 	"packOptions": {
 		"ignore": []
